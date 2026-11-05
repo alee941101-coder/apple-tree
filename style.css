@@ -1,0 +1,343 @@
+body{
+
+
+    font-family: "Note serif TC", "Songti TC";
+    text-align: center;
+    background-color:#FFF1D9;
+    font-family: "Note serif TC", "Songti TC";
+    text-align: center;
+}
+h1{
+    font-weight: 800;
+    color: #7A5B3E;
+    font-size: 60px;
+    margin: 80px 10px 2px 10px
+
+ }
+nav a {
+    font-weight: 800;
+    text-decoration: none;
+    color: #FFF1D9;
+    margin: 0px 50px;
+    font-size: 20px;
+
+}
+nav a:hover {
+    background-color: rgb(152, 70, 70,0.5);
+    transform: translateY(-5px); border-radius: 6px
+}
+
+/* 全文字內容 */
+p{
+    font-weight: 800;
+    color: #7A5B3E;
+    margin: 10px 70px;
+    font-size: 14px;
+}
+hr{
+     border: none;
+    border-top: 1px dashed #7A5B3E
+}
+
+/* 導覽列 */
+nav {
+    position: sticky;
+    top: 0;
+    padding: 10px;
+     background-color: rgba(122, 91, 62, 0.7);
+    border-radius: 6px;
+    margin-top: 15px;
+    
+}
+
+/* 背後白色方塊主要內容 */
+main {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+/* 背後方塊內容區塊 */
+section {
+    background-color:  rgba(255, 252, 247, 0.8);
+    padding: 45px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    margin: 50px 10px 2px 10px
+}
+
+/* 標題 */
+h2 {
+    color: #7A5B3E;
+     font-family: "Note serif TC", "Songti TC",serif;
+    font-size: 26px;
+      margin: 5px auto;
+}
+
+/* 文章區域 */
+article {
+    padding: 40px;
+    margin-top: 40px;
+    background-color: rgba(122, 91, 62, 0.1);
+    border-left: 3px dashed #C5A88B;
+    border-radius: 6px;
+     margin: 40px}
+article p{
+      font-size: 12px;
+    
+}
+h3 {
+     color: rgb(152, 70, 70,0.8);
+     font-family: "Note serif TC", "Songti TC",serif;
+    font-size: 20px;
+    margin: 1px auto;
+     
+}
+
+/* 網站最下方 */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(122, 91, 62, 0.7);
+    color: #FFF1D9;
+    font-size: 10px;
+}
+/* 照片大小 */
+img{
+    width: 300px;
+    height: auto;
+     border-radius: 6px;
+     margin: 20px 20px 20px 10px
+}
+
+.縮小照片 {
+    width: 300px;
+     height: auto;
+}
+
+.蘋果 p {
+
+     font-size: 16px;
+     margin-bottom: 40px;
+}
+
+.文字 {
+    max-width: 800px;
+    margin: 0 auto;
+    
+   
+}
+
+.文字 p {
+    text-align: left;
+    max-width: 350px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    
+}
+
+.名字 {
+    font-size: 20px;
+      line-height:1;
+}
+
+.蘋果介紹 {
+    display: flex;
+    align-items:  flex-end;
+    justify-content: center;
+    gap: 10px;
+}
+
+.蘋果介紹 img {
+    width: 250px;
+}
+
+.介紹文字 {
+    text-align: left;
+    max-width: 400px;
+}
+
+.介紹文字 p {
+    margin: 10px 0;
+    line-height: 1.8;
+}
+ #蘋果故事 {
+      background-image: url("image/tree.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+     padding: 10px;
+     margin: 0px 80px 20px 80px
+    }
+
+#蘋果故事 .介紹文字 {
+    background-color: rgba(255, 252, 247, 0.8);
+    padding: 20px;
+    border-radius: 6px;
+     margin: 20px 10px 20px 10px
+    
+}
+.自言自語-問{
+  margin: 100px 0px 50px 10px
+}
+.自言自語-問 p{
+    color: #7A5B3E;
+  font-size: 20px;
+  text-align: left;
+
+}
+.自言自語-答 p{
+      color: #7A5B3E;
+  font-size: 20px;
+  text-align: right;
+  margin: 50px 100px 0px 0px
+}
+.自言自語-答 a {
+    font-size: 15px;
+    color: #7A5B3E;
+    text-decoration: none;
+}
+
+.自言自語-答 a:hover {
+    text-decoration: underline;
+}
+#精神意志 { background-color: rgba(255, 252, 247, 0);
+}
+/* 精神意志整體排列 */
+.作品 {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+      margin: 50px 0px 0px 0px;
+    gap:60px;
+}
+
+/* 作品名稱 */
+.作品項目 p {
+    margin: 0 0 5px 0;
+    font-size: 14px;
+     margin: 10px 15px 0px 0px
+}
+
+.作品項目 img {
+    width: 400px;  
+    height: auto;   
+    margin: 0;
+}
+.氣氛文字 p{
+     writing-mode: vertical-lr;
+    font-size: 20px;
+}
+.生活 {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    justify-content: center;
+    gap: 10px;
+}
+
+.生活 img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin: 0;
+}
+.生活 p {
+    text-align: left;
+    line-height: 1.5;
+    margin: 15px 100px 0px 15px
+}
+
+
+.文青 p {
+  text-align: left;
+  max-width: 300px;
+
+}
+
+.生活碎片ｐ{
+    text-align: left;
+}
+
+/* 社群連結 */
+.社群連結 {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin: 0px;
+}
+
+.社群連結 a {
+    color: #FFF1D9;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.版權{
+     margin: 5px;
+}
+.最後 p{
+      margin: -2px;
+     font-size: 60px;
+    opacity: 0.5;
+}
+.浮水印 {
+    position: relative;
+}
+
+.background-text {
+    position: absolute;
+    top: 5px;
+    left: 20%;
+    transform: translateX(-50%);
+
+    font-size: 100px;
+    color: rgba(122, 91, 62, 0.2);
+    z-index: 0;
+
+    white-space: nowrap;
+}
+
+.浮水印 img {
+    position: relative;
+    z-index: 1;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.回蘋果樹 {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+
+    z-index: 999;
+    transition: 0.3s;
+}
+/* 蘋果圖片 */
+.回蘋果樹 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin: 0;
+    border-radius: 0; 
+}
+
+.回蘋果樹:hover {
+    transform: translateY(-8px);
+}
+
+footer a:hover {
+       color: #984646;
+}
